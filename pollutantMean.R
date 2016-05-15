@@ -1,4 +1,4 @@
-pollutantmean<-function(directory, pollutant, id){ 
+pollutantmean<-function(directory, pollutant, id=1:332){ 
   #setting the working directory to the one containing required .csv files
   specdatapath<-paste("C:/Users/aniru_000/Desktop/JHU R Course",directory,sep = "/")
   setwd(specdatapath)
